@@ -76,6 +76,7 @@ console.log(cumLaude([8, 9, 4, 6, 10]))
 // Stap 3 Deel die door het totaal aantal cijfers in de grades array.
 
 
+
 //----------------------------------------------------------//
 function averageGrade(grades) {
     let sumOfAllGrades = 0;
@@ -146,18 +147,18 @@ console.log(averageGrade([8, 9, 4, 6, 10]))
 
 //----------------------------------------------------------//
 
-// function highestGrade(highestGrade) {
-//     let highGrade = 0;
-//
-//     for (let i = 0; i < highestGrade.length; i++) {
-//         if (highestGrade[i] > highGrade) {
-//              highGrade = highestGrade[i]
-//         }
-//     }
-//     return highGrade
-// }
-//
-// console.log(highestGrade(grades))
+function highestGrade(highestGrade) {
+    let highGrade = 0;
+
+    for (let i = 0; i < highestGrade.length; i++) {
+        if (highestGrade[i] > highGrade) {
+             highGrade = highestGrade[i]
+        }
+    }
+    return highGrade
+}
+
+console.log(highestGrade(grades))
 
 
 
